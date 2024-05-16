@@ -12,10 +12,10 @@
         hasil = nilai1 + nilai2
 
         Dim Pesan As String
-        Pesan = nilai1 & " + " & nilai2 & " = " & hasil
-        'MsgBox(Pesan, MsgBoxStyle.Information, "Hasil Tambah")
+        Pesan = nilai1 & " + " & nilai2 & " = " & hasil        
         tb_hasil.Text = Pesan
         lb_hasil.Text = "Hasil Tambah"
+
     End Sub
 
     Private Sub B_Kurang_Click(sender As Object, e As EventArgs) Handles B_Kurang.Click
