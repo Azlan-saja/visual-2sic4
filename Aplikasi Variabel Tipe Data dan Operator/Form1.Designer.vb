@@ -31,6 +31,8 @@ Partial Class Form1
         Me.B_Kali = New System.Windows.Forms.Button()
         Me.B_Bagi = New System.Windows.Forms.Button()
         Me.B_Sisa_Bagi = New System.Windows.Forms.Button()
+        Me.tb_hasil = New System.Windows.Forms.TextBox()
+        Me.lb_hasil = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Label1
@@ -58,7 +60,7 @@ Partial Class Form1
         Me.Tb_Nilai1.Font = New System.Drawing.Font("Mongolian Baiti", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Tb_Nilai1.Location = New System.Drawing.Point(340, 39)
         Me.Tb_Nilai1.Name = "Tb_Nilai1"
-        Me.Tb_Nilai1.Size = New System.Drawing.Size(774, 77)
+        Me.Tb_Nilai1.Size = New System.Drawing.Size(804, 77)
         Me.Tb_Nilai1.TabIndex = 2
         Me.Tb_Nilai1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -67,7 +69,7 @@ Partial Class Form1
         Me.Tb_Nilai2.Font = New System.Drawing.Font("Mongolian Baiti", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Tb_Nilai2.Location = New System.Drawing.Point(340, 146)
         Me.Tb_Nilai2.Name = "Tb_Nilai2"
-        Me.Tb_Nilai2.Size = New System.Drawing.Size(774, 77)
+        Me.Tb_Nilai2.Size = New System.Drawing.Size(804, 77)
         Me.Tb_Nilai2.TabIndex = 4
         Me.Tb_Nilai2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -116,16 +118,38 @@ Partial Class Form1
         Me.B_Sisa_Bagi.Font = New System.Drawing.Font("Mongolian Baiti", 32.0!, System.Drawing.FontStyle.Bold)
         Me.B_Sisa_Bagi.Location = New System.Drawing.Point(964, 243)
         Me.B_Sisa_Bagi.Name = "B_Sisa_Bagi"
-        Me.B_Sisa_Bagi.Size = New System.Drawing.Size(150, 90)
+        Me.B_Sisa_Bagi.Size = New System.Drawing.Size(180, 90)
         Me.B_Sisa_Bagi.TabIndex = 8
         Me.B_Sisa_Bagi.Text = "Mod"
         Me.B_Sisa_Bagi.UseVisualStyleBackColor = True
+        '
+        'tb_hasil
+        '
+        Me.tb_hasil.Font = New System.Drawing.Font("Mongolian Baiti", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.tb_hasil.Location = New System.Drawing.Point(340, 427)
+        Me.tb_hasil.Name = "tb_hasil"
+        Me.tb_hasil.ReadOnly = True
+        Me.tb_hasil.Size = New System.Drawing.Size(804, 77)
+        Me.tb_hasil.TabIndex = 9
+        Me.tb_hasil.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
+        'lb_hasil
+        '
+        Me.lb_hasil.Font = New System.Drawing.Font("Mongolian Baiti", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lb_hasil.Location = New System.Drawing.Point(340, 345)
+        Me.lb_hasil.Name = "lb_hasil"
+        Me.lb_hasil.Size = New System.Drawing.Size(804, 64)
+        Me.lb_hasil.TabIndex = 10
+        Me.lb_hasil.Text = "Hasil"
+        Me.lb_hasil.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1145, 359)
+        Me.ClientSize = New System.Drawing.Size(1320, 535)
+        Me.Controls.Add(Me.lb_hasil)
+        Me.Controls.Add(Me.tb_hasil)
         Me.Controls.Add(Me.B_Sisa_Bagi)
         Me.Controls.Add(Me.B_Bagi)
         Me.Controls.Add(Me.B_Kali)
@@ -151,5 +175,7 @@ Partial Class Form1
     Friend WithEvents B_Kali As System.Windows.Forms.Button
     Friend WithEvents B_Bagi As System.Windows.Forms.Button
     Friend WithEvents B_Sisa_Bagi As System.Windows.Forms.Button
+    Friend WithEvents tb_hasil As System.Windows.Forms.TextBox
+    Friend WithEvents lb_hasil As System.Windows.Forms.Label
 
 End Class
