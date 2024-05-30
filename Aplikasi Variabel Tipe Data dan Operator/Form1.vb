@@ -84,10 +84,26 @@
         var_hasil = var_nilai_1 Mod var_nilai_2
 
         Dim pesan As String
-        pesan = var_nilai_1 & " ^ " & var_nilai_2 & " = " & var_hasil
-        'MsgBox(pesan, , "Hasil Sisa Bagi")
+        pesan = var_nilai_1 & "  Mod " & var_nilai_2 & " = " & var_hasil
         tb_hasil.Text = pesan
         lb_hasil.Text = "Hasil Sisa Bagi"
+
+    End Sub
+
+    Private Sub B_Pangkat_Click(sender As Object, e As EventArgs) Handles B_Pangkat.Click
+        Dim var_nilai_1 As Integer
+        var_nilai_1 = Tb_Nilai1.Text
+
+        Dim var_nilai_2 As Integer
+        var_nilai_2 = Tb_Nilai2.Text
+
+        Dim var_hasil As Integer
+        var_hasil = var_nilai_1 ^ var_nilai_2
+
+        Dim pesan As String
+        pesan = var_nilai_1 & " ^ " & var_nilai_2 & " = " & var_hasil
+        tb_hasil.Text = pesan
+        lb_hasil.Text = "Hasil Pangkat"
 
     End Sub
 End Class

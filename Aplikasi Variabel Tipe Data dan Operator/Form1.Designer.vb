@@ -33,6 +33,8 @@ Partial Class Form1
         Me.B_Sisa_Bagi = New System.Windows.Forms.Button()
         Me.tb_hasil = New System.Windows.Forms.TextBox()
         Me.lb_hasil = New System.Windows.Forms.Label()
+        Me.B_Pangkat = New System.Windows.Forms.Button()
+        Me.Label3 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Label1
@@ -48,7 +50,7 @@ Partial Class Form1
         'B_Tambah
         '
         Me.B_Tambah.Font = New System.Drawing.Font("Mongolian Baiti", 32.0!, System.Drawing.FontStyle.Bold)
-        Me.B_Tambah.Location = New System.Drawing.Point(340, 243)
+        Me.B_Tambah.Location = New System.Drawing.Point(252, 239)
         Me.B_Tambah.Name = "B_Tambah"
         Me.B_Tambah.Size = New System.Drawing.Size(150, 90)
         Me.B_Tambah.TabIndex = 1
@@ -86,7 +88,7 @@ Partial Class Form1
         'B_Kurang
         '
         Me.B_Kurang.Font = New System.Drawing.Font("Mongolian Baiti", 32.0!, System.Drawing.FontStyle.Bold)
-        Me.B_Kurang.Location = New System.Drawing.Point(496, 243)
+        Me.B_Kurang.Location = New System.Drawing.Point(408, 239)
         Me.B_Kurang.Name = "B_Kurang"
         Me.B_Kurang.Size = New System.Drawing.Size(150, 90)
         Me.B_Kurang.TabIndex = 5
@@ -96,7 +98,7 @@ Partial Class Form1
         'B_Kali
         '
         Me.B_Kali.Font = New System.Drawing.Font("Mongolian Baiti", 32.0!, System.Drawing.FontStyle.Bold)
-        Me.B_Kali.Location = New System.Drawing.Point(652, 243)
+        Me.B_Kali.Location = New System.Drawing.Point(564, 239)
         Me.B_Kali.Name = "B_Kali"
         Me.B_Kali.Size = New System.Drawing.Size(150, 90)
         Me.B_Kali.TabIndex = 6
@@ -106,7 +108,7 @@ Partial Class Form1
         'B_Bagi
         '
         Me.B_Bagi.Font = New System.Drawing.Font("Mongolian Baiti", 32.0!, System.Drawing.FontStyle.Bold)
-        Me.B_Bagi.Location = New System.Drawing.Point(808, 243)
+        Me.B_Bagi.Location = New System.Drawing.Point(720, 239)
         Me.B_Bagi.Name = "B_Bagi"
         Me.B_Bagi.Size = New System.Drawing.Size(150, 90)
         Me.B_Bagi.TabIndex = 7
@@ -116,7 +118,7 @@ Partial Class Form1
         'B_Sisa_Bagi
         '
         Me.B_Sisa_Bagi.Font = New System.Drawing.Font("Mongolian Baiti", 32.0!, System.Drawing.FontStyle.Bold)
-        Me.B_Sisa_Bagi.Location = New System.Drawing.Point(964, 243)
+        Me.B_Sisa_Bagi.Location = New System.Drawing.Point(876, 239)
         Me.B_Sisa_Bagi.Name = "B_Sisa_Bagi"
         Me.B_Sisa_Bagi.Size = New System.Drawing.Size(180, 90)
         Me.B_Sisa_Bagi.TabIndex = 8
@@ -143,11 +145,34 @@ Partial Class Form1
         Me.lb_hasil.Text = "Hasil"
         Me.lb_hasil.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
+        'B_Pangkat
+        '
+        Me.B_Pangkat.Font = New System.Drawing.Font("Mongolian Baiti", 32.0!, System.Drawing.FontStyle.Bold)
+        Me.B_Pangkat.Location = New System.Drawing.Point(1074, 239)
+        Me.B_Pangkat.Name = "B_Pangkat"
+        Me.B_Pangkat.Size = New System.Drawing.Size(149, 90)
+        Me.B_Pangkat.TabIndex = 11
+        Me.B_Pangkat.Text = "X"
+        Me.B_Pangkat.UseVisualStyleBackColor = True
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.BackColor = System.Drawing.Color.White
+        Me.Label3.Font = New System.Drawing.Font("Mongolian Baiti", 20.0!, System.Drawing.FontStyle.Bold)
+        Me.Label3.Location = New System.Drawing.Point(1164, 242)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(33, 36)
+        Me.Label3.TabIndex = 12
+        Me.Label3.Text = "2"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1320, 535)
+        Me.ClientSize = New System.Drawing.Size(1286, 535)
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.B_Pangkat)
         Me.Controls.Add(Me.lb_hasil)
         Me.Controls.Add(Me.tb_hasil)
         Me.Controls.Add(Me.B_Sisa_Bagi)
@@ -177,5 +202,7 @@ Partial Class Form1
     Friend WithEvents B_Sisa_Bagi As System.Windows.Forms.Button
     Friend WithEvents tb_hasil As System.Windows.Forms.TextBox
     Friend WithEvents lb_hasil As System.Windows.Forms.Label
+    Friend WithEvents B_Pangkat As System.Windows.Forms.Button
+    Friend WithEvents Label3 As System.Windows.Forms.Label
 
 End Class
