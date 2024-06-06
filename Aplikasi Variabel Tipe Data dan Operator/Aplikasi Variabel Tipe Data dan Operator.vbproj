@@ -70,6 +70,24 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Form Menu Utama.Designer.vb">
+      <DependentUpon>Form Menu Utama.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form Menu Utama.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Operator Logika.Designer.vb">
+      <DependentUpon>Form Operator Logika.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form Operator Logika.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form Operator Perbandingan.Designer.vb">
+      <DependentUpon>Form Operator Perbandingan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form Operator Perbandingan.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -94,6 +112,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Form Menu Utama.resx">
+      <DependentUpon>Form Menu Utama.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>

@@ -9,3 +9,4 @@ C:\Users\MSI GF63\Documents\Visual Studio 2012\Projects\Aplikasi Variabel Tipe D
 C:\Users\MSI GF63\Documents\Visual Studio 2012\Projects\Aplikasi Variabel Tipe Data dan Operator\Aplikasi Variabel Tipe Data dan Operator\obj\Debug\Aplikasi Variabel Tipe Data dan Operator.exe
 C:\Users\MSI GF63\Documents\Visual Studio 2012\Projects\Aplikasi Variabel Tipe Data dan Operator\Aplikasi Variabel Tipe Data dan Operator\obj\Debug\Aplikasi Variabel Tipe Data dan Operator.xml
 C:\Users\MSI GF63\Documents\Visual Studio 2012\Projects\Aplikasi Variabel Tipe Data dan Operator\Aplikasi Variabel Tipe Data dan Operator\obj\Debug\Aplikasi Variabel Tipe Data dan Operator.pdb
+C:\Users\MSI GF63\Documents\Visual Studio 2012\Projects\Aplikasi Variabel Tipe Data dan Operator\Aplikasi Variabel Tipe Data dan Operator\obj\Debug\Aplikasi_Variabel_Tipe_Data_dan_Operator.Form_Menu_Utama.resources
