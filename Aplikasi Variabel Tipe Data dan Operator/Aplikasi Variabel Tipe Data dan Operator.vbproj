@@ -115,6 +115,12 @@
     <EmbeddedResource Include="Form Menu Utama.resx">
       <DependentUpon>Form Menu Utama.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form Operator Logika.resx">
+      <DependentUpon>Form Operator Logika.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form Operator Perbandingan.resx">
+      <DependentUpon>Form Operator Perbandingan.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>

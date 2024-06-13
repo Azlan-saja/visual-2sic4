@@ -22,8 +22,16 @@ Partial Class Form_Operator_Logika
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container
+        Me.SuspendLayout()
+        '
+        'Form_Operator_Logika
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.ClientSize = New System.Drawing.Size(1166, 583)
+        Me.Name = "Form_Operator_Logika"
         Me.Text = "Form_Operator_Logika"
+        Me.ResumeLayout(False)
+
     End Sub
 End Class
