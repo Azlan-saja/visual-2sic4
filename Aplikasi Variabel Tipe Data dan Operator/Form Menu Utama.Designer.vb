@@ -92,25 +92,25 @@ Partial Class Form_Menu_Utama
         'MahasiswaToolStripMenuItem
         '
         Me.MahasiswaToolStripMenuItem.Name = "MahasiswaToolStripMenuItem"
-        Me.MahasiswaToolStripMenuItem.Size = New System.Drawing.Size(152, 24)
+        Me.MahasiswaToolStripMenuItem.Size = New System.Drawing.Size(151, 24)
         Me.MahasiswaToolStripMenuItem.Text = "Mahasiswa"
         '
         'DosenToolStripMenuItem
         '
         Me.DosenToolStripMenuItem.Name = "DosenToolStripMenuItem"
-        Me.DosenToolStripMenuItem.Size = New System.Drawing.Size(152, 24)
+        Me.DosenToolStripMenuItem.Size = New System.Drawing.Size(151, 24)
         Me.DosenToolStripMenuItem.Text = "Dosen"
         '
         'MatakuliahToolStripMenuItem
         '
         Me.MatakuliahToolStripMenuItem.Name = "MatakuliahToolStripMenuItem"
-        Me.MatakuliahToolStripMenuItem.Size = New System.Drawing.Size(152, 24)
+        Me.MatakuliahToolStripMenuItem.Size = New System.Drawing.Size(151, 24)
         Me.MatakuliahToolStripMenuItem.Text = "Matakuliah"
         '
         'NilaiToolStripMenuItem
         '
         Me.NilaiToolStripMenuItem.Name = "NilaiToolStripMenuItem"
-        Me.NilaiToolStripMenuItem.Size = New System.Drawing.Size(152, 24)
+        Me.NilaiToolStripMenuItem.Size = New System.Drawing.Size(151, 24)
         Me.NilaiToolStripMenuItem.Text = "Nilai"
         '
         'Form_Menu_Utama

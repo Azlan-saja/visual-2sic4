@@ -14,4 +14,11 @@
         Form_Operator_Logika.MdiParent = Me
         Form_Operator_Logika.Show()
     End Sub
+
+    Private Sub KeluarToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles KeluarToolStripMenuItem.Click
+        Dim pesan As String
+        pesan = MsgBox("Yakin keluar sekarang?", vbYesNo, "Keluar")
+        If pesan = vbYes Then End
+    End Sub
+
 End Class

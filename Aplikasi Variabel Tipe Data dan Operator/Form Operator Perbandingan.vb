@@ -59,4 +59,8 @@
 
         TbHasil.Text = var_hasil
     End Sub
+
+    Private Sub Form_Operator_Perbandingan_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
 End Class
