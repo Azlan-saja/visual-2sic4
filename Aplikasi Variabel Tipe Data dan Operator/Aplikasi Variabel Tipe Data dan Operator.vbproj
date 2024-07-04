@@ -70,6 +70,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Form Data Mahasiswa.Designer.vb">
+      <DependentUpon>Form Data Mahasiswa.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form Data Mahasiswa.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form Menu Utama.Designer.vb">
       <DependentUpon>Form Menu Utama.vb</DependentUpon>
     </Compile>
@@ -112,6 +118,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Form Data Mahasiswa.resx">
+      <DependentUpon>Form Data Mahasiswa.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form Menu Utama.resx">
       <DependentUpon>Form Menu Utama.vb</DependentUpon>
     </EmbeddedResource>

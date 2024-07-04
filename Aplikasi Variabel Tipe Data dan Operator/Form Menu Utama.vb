@@ -21,4 +21,9 @@
         If pesan = vbYes Then End
     End Sub
 
+    Private Sub MahasiswaToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles MahasiswaToolStripMenuItem.Click
+        Form_Data_Mahasiswa.MdiParent = Me
+        Form_Data_Mahasiswa.Show()
+    End Sub
+
 End Class
