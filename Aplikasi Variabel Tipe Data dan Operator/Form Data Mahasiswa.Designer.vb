@@ -25,16 +25,16 @@ Partial Class Form_Data_Mahasiswa
         Me.BSimpan = New System.Windows.Forms.Button()
         Me.TbNIRM = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.TbNama = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.TbKelas = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.ListView1 = New System.Windows.Forms.ListView()
+        Me.LvTabelMahasiswa = New System.Windows.Forms.ListView()
         Me.ColumnHeader1 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ColumnHeader2 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ColumnHeader3 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
+        Me.BHapusTerpilih = New System.Windows.Forms.Button()
+        Me.BHapusSemua = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'BSimpan
@@ -65,13 +65,13 @@ Partial Class Form_Data_Mahasiswa
         Me.Label1.TabIndex = 27
         Me.Label1.Text = "NIRM :"
         '
-        'TextBox1
+        'TbNama
         '
-        Me.TextBox1.Font = New System.Drawing.Font("Mongolian Baiti", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(254, 118)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(884, 77)
-        Me.TextBox1.TabIndex = 30
+        Me.TbNama.Font = New System.Drawing.Font("Mongolian Baiti", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TbNama.Location = New System.Drawing.Point(254, 118)
+        Me.TbNama.Name = "TbNama"
+        Me.TbNama.Size = New System.Drawing.Size(884, 77)
+        Me.TbNama.TabIndex = 30
         '
         'Label2
         '
@@ -83,13 +83,13 @@ Partial Class Form_Data_Mahasiswa
         Me.Label2.TabIndex = 29
         Me.Label2.Text = "Nama :"
         '
-        'TextBox2
+        'TbKelas
         '
-        Me.TextBox2.Font = New System.Drawing.Font("Mongolian Baiti", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(254, 226)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(296, 77)
-        Me.TextBox2.TabIndex = 32
+        Me.TbKelas.Font = New System.Drawing.Font("Mongolian Baiti", 36.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TbKelas.Location = New System.Drawing.Point(254, 226)
+        Me.TbKelas.Name = "TbKelas"
+        Me.TbKelas.Size = New System.Drawing.Size(296, 77)
+        Me.TbKelas.TabIndex = 32
         '
         'Label3
         '
@@ -101,18 +101,18 @@ Partial Class Form_Data_Mahasiswa
         Me.Label3.TabIndex = 31
         Me.Label3.Text = "Kelas :"
         '
-        'ListView1
+        'LvTabelMahasiswa
         '
-        Me.ListView1.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader1, Me.ColumnHeader2, Me.ColumnHeader3})
-        Me.ListView1.Font = New System.Drawing.Font("Mongolian Baiti", 32.0!, System.Drawing.FontStyle.Bold)
-        Me.ListView1.FullRowSelect = True
-        Me.ListView1.GridLines = True
-        Me.ListView1.Location = New System.Drawing.Point(12, 439)
-        Me.ListView1.Name = "ListView1"
-        Me.ListView1.Size = New System.Drawing.Size(982, 284)
-        Me.ListView1.TabIndex = 33
-        Me.ListView1.UseCompatibleStateImageBehavior = False
-        Me.ListView1.View = System.Windows.Forms.View.Details
+        Me.LvTabelMahasiswa.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader1, Me.ColumnHeader2, Me.ColumnHeader3})
+        Me.LvTabelMahasiswa.Font = New System.Drawing.Font("Mongolian Baiti", 32.0!, System.Drawing.FontStyle.Bold)
+        Me.LvTabelMahasiswa.FullRowSelect = True
+        Me.LvTabelMahasiswa.GridLines = True
+        Me.LvTabelMahasiswa.Location = New System.Drawing.Point(12, 439)
+        Me.LvTabelMahasiswa.Name = "LvTabelMahasiswa"
+        Me.LvTabelMahasiswa.Size = New System.Drawing.Size(982, 284)
+        Me.LvTabelMahasiswa.TabIndex = 33
+        Me.LvTabelMahasiswa.UseCompatibleStateImageBehavior = False
+        Me.LvTabelMahasiswa.View = System.Windows.Forms.View.Details
         '
         'ColumnHeader1
         '
@@ -129,37 +129,37 @@ Partial Class Form_Data_Mahasiswa
         Me.ColumnHeader3.Text = "Kelas"
         Me.ColumnHeader3.Width = 271
         '
-        'Button1
+        'BHapusTerpilih
         '
-        Me.Button1.Font = New System.Drawing.Font("Mongolian Baiti", 32.0!, System.Drawing.FontStyle.Bold)
-        Me.Button1.Location = New System.Drawing.Point(997, 439)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(267, 141)
-        Me.Button1.TabIndex = 34
-        Me.Button1.Text = "Hapus Terpilih"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.BHapusTerpilih.Font = New System.Drawing.Font("Mongolian Baiti", 32.0!, System.Drawing.FontStyle.Bold)
+        Me.BHapusTerpilih.Location = New System.Drawing.Point(997, 439)
+        Me.BHapusTerpilih.Name = "BHapusTerpilih"
+        Me.BHapusTerpilih.Size = New System.Drawing.Size(267, 141)
+        Me.BHapusTerpilih.TabIndex = 34
+        Me.BHapusTerpilih.Text = "Hapus Terpilih"
+        Me.BHapusTerpilih.UseVisualStyleBackColor = True
         '
-        'Button2
+        'BHapusSemua
         '
-        Me.Button2.Font = New System.Drawing.Font("Mongolian Baiti", 32.0!, System.Drawing.FontStyle.Bold)
-        Me.Button2.Location = New System.Drawing.Point(1000, 586)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(267, 141)
-        Me.Button2.TabIndex = 34
-        Me.Button2.Text = "Hapus Semua"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.BHapusSemua.Font = New System.Drawing.Font("Mongolian Baiti", 32.0!, System.Drawing.FontStyle.Bold)
+        Me.BHapusSemua.Location = New System.Drawing.Point(1000, 586)
+        Me.BHapusSemua.Name = "BHapusSemua"
+        Me.BHapusSemua.Size = New System.Drawing.Size(267, 141)
+        Me.BHapusSemua.TabIndex = 34
+        Me.BHapusSemua.Text = "Hapus Semua"
+        Me.BHapusSemua.UseVisualStyleBackColor = True
         '
         'Form_Data_Mahasiswa
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1276, 735)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.ListView1)
-        Me.Controls.Add(Me.TextBox2)
+        Me.Controls.Add(Me.BHapusSemua)
+        Me.Controls.Add(Me.BHapusTerpilih)
+        Me.Controls.Add(Me.LvTabelMahasiswa)
+        Me.Controls.Add(Me.TbKelas)
         Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.TbNama)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.TbNIRM)
         Me.Controls.Add(Me.Label1)
@@ -174,13 +174,13 @@ Partial Class Form_Data_Mahasiswa
     Friend WithEvents BSimpan As System.Windows.Forms.Button
     Friend WithEvents TbNIRM As System.Windows.Forms.TextBox
     Friend WithEvents Label1 As System.Windows.Forms.Label
-    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
+    Friend WithEvents TbNama As System.Windows.Forms.TextBox
     Friend WithEvents Label2 As System.Windows.Forms.Label
-    Friend WithEvents TextBox2 As System.Windows.Forms.TextBox
+    Friend WithEvents TbKelas As System.Windows.Forms.TextBox
     Friend WithEvents Label3 As System.Windows.Forms.Label
-    Friend WithEvents ListView1 As System.Windows.Forms.ListView
-    Friend WithEvents Button1 As System.Windows.Forms.Button
-    Friend WithEvents Button2 As System.Windows.Forms.Button
+    Friend WithEvents LvTabelMahasiswa As System.Windows.Forms.ListView
+    Friend WithEvents BHapusTerpilih As System.Windows.Forms.Button
+    Friend WithEvents BHapusSemua As System.Windows.Forms.Button
     Friend WithEvents ColumnHeader1 As System.Windows.Forms.ColumnHeader
     Friend WithEvents ColumnHeader2 As System.Windows.Forms.ColumnHeader
     Friend WithEvents ColumnHeader3 As System.Windows.Forms.ColumnHeader
