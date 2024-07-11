@@ -30,11 +30,11 @@ Partial Class Form_Data_Mahasiswa
         Me.TextBox2 = New System.Windows.Forms.TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.ListView1 = New System.Windows.Forms.ListView()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
         Me.ColumnHeader1 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ColumnHeader2 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
         Me.ColumnHeader3 = CType(New System.Windows.Forms.ColumnHeader(), System.Windows.Forms.ColumnHeader)
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'BSimpan
@@ -54,7 +54,6 @@ Partial Class Form_Data_Mahasiswa
         Me.TbNIRM.Name = "TbNIRM"
         Me.TbNIRM.Size = New System.Drawing.Size(430, 77)
         Me.TbNIRM.TabIndex = 28
-        Me.TbNIRM.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label1
         '
@@ -73,7 +72,6 @@ Partial Class Form_Data_Mahasiswa
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(884, 77)
         Me.TextBox1.TabIndex = 30
-        Me.TextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label2
         '
@@ -92,7 +90,6 @@ Partial Class Form_Data_Mahasiswa
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.Size = New System.Drawing.Size(296, 77)
         Me.TextBox2.TabIndex = 32
-        Me.TextBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'Label3
         '
@@ -117,6 +114,21 @@ Partial Class Form_Data_Mahasiswa
         Me.ListView1.UseCompatibleStateImageBehavior = False
         Me.ListView1.View = System.Windows.Forms.View.Details
         '
+        'ColumnHeader1
+        '
+        Me.ColumnHeader1.Text = "NIRM"
+        Me.ColumnHeader1.Width = 196
+        '
+        'ColumnHeader2
+        '
+        Me.ColumnHeader2.Text = "Nama"
+        Me.ColumnHeader2.Width = 424
+        '
+        'ColumnHeader3
+        '
+        Me.ColumnHeader3.Text = "Kelas"
+        Me.ColumnHeader3.Width = 271
+        '
         'Button1
         '
         Me.Button1.Font = New System.Drawing.Font("Mongolian Baiti", 32.0!, System.Drawing.FontStyle.Bold)
@@ -136,21 +148,6 @@ Partial Class Form_Data_Mahasiswa
         Me.Button2.TabIndex = 34
         Me.Button2.Text = "Hapus Semua"
         Me.Button2.UseVisualStyleBackColor = True
-        '
-        'ColumnHeader1
-        '
-        Me.ColumnHeader1.Text = "NIRM"
-        Me.ColumnHeader1.Width = 196
-        '
-        'ColumnHeader2
-        '
-        Me.ColumnHeader2.Text = "Nama"
-        Me.ColumnHeader2.Width = 424
-        '
-        'ColumnHeader3
-        '
-        Me.ColumnHeader3.Text = "Kelas"
-        Me.ColumnHeader3.Width = 271
         '
         'Form_Data_Mahasiswa
         '
